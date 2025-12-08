@@ -24,9 +24,9 @@ const Footer = ({}) => {
         </div>
       </div>
       <h1 className="text-sm mt-2 laptop:mt-10 p-2 laptop:p-0">
-        template made by{" "}
+        template by{" "}
         <Link href="http://www.chetanverma.com">
-          <a className="underline underline-offset-1">Chetan Verma</a>
+          <a className="underline underline-offset-1">Chetan</a>
         </Link>
       </h1>
     </>
