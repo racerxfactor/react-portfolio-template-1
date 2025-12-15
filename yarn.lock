@@ -263,6 +263,26 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
   integrity sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==
 
+"@rive-app/canvas-lite@2.32.0":
+  version "2.32.0"
+  resolved "https://registry.npmjs.org/@rive-app/canvas-lite/-/canvas-lite-2.32.0.tgz"
+  integrity sha512-F35bDRwmjpGNzprWyLt8zc9YducAMh6L3q06Dzqg34B0O6AVKymAb1knGsBIn0wBaG8ufNZZWHkrC2a0rv+zuA==
+
+"@rive-app/canvas@2.32.0":
+  version "2.32.0"
+  resolved "https://registry.npmjs.org/@rive-app/canvas/-/canvas-2.32.0.tgz"
+  integrity sha512-RZRZQRWItH7e0NVmHVhffkm02J/9CO/Qdq71Vu1TkExj312Oc22FpBVn8rBnyEeQak75bJy9m/ig84Crcr7qog==
+
+"@rive-app/webgl@2.32.0":
+  version "2.32.0"
+  resolved "https://registry.npmjs.org/@rive-app/webgl/-/webgl-2.32.0.tgz"
+  integrity sha512-QfUyREAII5AV5zmM2jKu9qRR/vyix4JHXLW8xI/MHaMQP8M+PebBue8NdF6QQ3PC846LyhZo2Row9ozdTkqIGQ==
+
+"@rive-app/webgl2@2.32.0":
+  version "2.32.0"
+  resolved "https://registry.npmjs.org/@rive-app/webgl2/-/webgl2-2.32.0.tgz"
+  integrity sha512-99Oquwnbl9HgZQhk70Dx9apQDyQPKTL1dyv5HUoWdVSJM71d3894XBbzw2W0o1pgYTDiS6iogaAs4dTw+OezJQ==
+
 "@rushstack/eslint-patch@^1.1.3":
   version "1.1.4"
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz"
@@ -2497,7 +2517,7 @@ react-textarea-autosize@^8.3.4:
     use-composed-ref "^1.3.0"
     use-latest "^1.2.1"
 
-react@*, "react@^15.5.x || ^16.x || ^17.x || ^18.x", "react@^16 || ^17 || ^18", react@^16.0.0, "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17 || ^18", "react@^17.0.2 || ^18.0.0-0", react@^18.1.0, "react@>= 0.14.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16, react@18.1.0:
+react@*, "react@^15.5.x || ^16.x || ^17.x || ^18.x", "react@^16 || ^17 || ^18", react@^16.0.0, "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0", "react@^16.9.0 || ^17 || ^18", "react@^17.0.2 || ^18.0.0-0", react@^18.1.0, "react@>= 0.14.0", "react@>= 16.8.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0", react@>=16, react@18.1.0:
   version "18.1.0"
   resolved "https://registry.npmjs.org/react/-/react-18.1.0.tgz"
   integrity sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==
@@ -2629,6 +2649,16 @@ rimraf@^3.0.2:
   integrity sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==
   dependencies:
     glob "^7.1.3"
+
+rive-react@^4.24.0:
+  version "4.24.0"
+  resolved "https://registry.npmjs.org/rive-react/-/rive-react-4.24.0.tgz"
+  integrity sha512-7E2SirE6OdgoiOuHXs0aUZhuCbAI3gQpipnk2Tjo7v6dR20zhev2UPqE4nOTYP+5cTOhv0v224GrGQBaMDhxew==
+  dependencies:
+    "@rive-app/canvas" "2.32.0"
+    "@rive-app/canvas-lite" "2.32.0"
+    "@rive-app/webgl" "2.32.0"
+    "@rive-app/webgl2" "2.32.0"
 
 run-parallel@^1.1.9:
   version "1.2.0"
