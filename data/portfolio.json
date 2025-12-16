@@ -38,23 +38,23 @@
     "projects": [
         {
             "id": "1",
-            "title": "DirecTV Redsign",
+            "title": "DirecTV Streaming",
             "description": "Redesign from Television to Streaming platforms",
             "imageSrc": "https://live.staticflickr.com/65535/54988991574_1f6e663294_z.jpg",
             "url": "http://racerxfactor.s3-website-us-west-1.amazonaws.com/directv-app/"
         },
         {
             "id": "2",
-            "title": "Comic Con ",
+            "title": "Comic Con Television App",
             "description": "Proof of Concept",
-            "imageSrc": "https://www.comic-con.org/uploads/sites/8/2023/10/comic-con-museum-entrance.jpg",
+            "imageSrc": "https://live.staticflickr.com/65535/54988738141_ee11bcfc56_z.jpg",
             "url": "http://racerxfactor.s3-website-us-west-1.amazonaws.com/comiccon-app/"
         },
         {
             "id": "3",
-            "title": "Project Three",
+            "title": "NBC Job Portal",
             "description": "Development",
-            "imageSrc": "https://deadline.com/wp-content/uploads/2025/05/NBC_c60d05.jpg?w=681&h=383&crop=1",
+            "imageSrc": "https://live.staticflickr.com/65535/54987845922_11bff3a78c_z.jpg",
             "url": "http://racerxfactor.s3-website-us-west-1.amazonaws.com/nbcuniversal-app/"
         },
         {
