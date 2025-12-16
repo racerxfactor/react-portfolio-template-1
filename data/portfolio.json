@@ -40,21 +40,21 @@
             "id": "1",
             "title": "DirecTV Streaming",
             "description": "Redesign from Television to Streaming platforms",
-            "imageSrc": "https://live.staticflickr.com/65535/54988991574_1f6e663294_z.jpg",
+            "imageSrc": "https://www.directv.com/dtvassets/images/support/sf-images/Menu_store.png",
             "url": "http://racerxfactor.s3-website-us-west-1.amazonaws.com/directv-app/"
         },
         {
             "id": "2",
             "title": "Comic Con Television App",
             "description": "Proof of Concept",
-            "imageSrc": "https://live.staticflickr.com/65535/54988738141_ee11bcfc56_z.jpg",
+            "imageSrc": "https://www.comic-con.org/uploads/2023/10/museum-entrance-hero-1024x679-1.webp",
             "url": "http://racerxfactor.s3-website-us-west-1.amazonaws.com/comiccon-app/"
         },
         {
             "id": "3",
             "title": "NBC Job Portal",
             "description": "Development",
-            "imageSrc": "https://live.staticflickr.com/65535/54987845922_11bff3a78c_z.jpg",
+            "imageSrc": "https://deadline.com/wp-content/uploads/2025/05/NBC_c60d05.jpg",
             "url": "http://racerxfactor.s3-website-us-west-1.amazonaws.com/nbcuniversal-app/"
         },
         {
