@@ -11,6 +11,8 @@ import BlogEditor from "../../components/BlogEditor";
 import { useRouter } from "next/router";
 import Cursor from "../../components/Cursor";
 import data from "../../data/portfolio.json";
+import MarkdownRenderer from '../../components/MarkdownRenderer';
+
 
 const BlogPost = ({ post }) => {
   const [showEditor, setShowEditor] = useState(false);
@@ -55,7 +57,7 @@ const BlogPost = ({ post }) => {
             {post.tagline}
           </h2>
         </div>
-        <ContentSection content={post.content}></ContentSection>
+       <MarkdownRenderer content={post.content} />
         <Footer />
       </div>
       {process.env.NODE_ENV === "development" && (
